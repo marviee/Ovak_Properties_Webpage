@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/other-views.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Ovak | Home</title>
+  </head>
+
+  <body>
+    <!-- Go-to-Top Button -->
+    <a class="mytop" name="top"></a>
+    <a
+      class="topButton"
+      id="mytop"
+      href="#top"
+      title="Go to Top"
+      onclick="functionName()"
+      ><i class="fa fa-chevron-circle-up" aria-hidden="true"></i
+    ></a>
+
+    <!-- Navigation Bar -->
+    <div class="navBar" id="myNavBar">
+      <a class="ovak anchor">Ovak Properties</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        ><i class="fa fa-bars"></i
+      ></a>
+      <a class="home anchor" title="Go Home">Home</a>
+      <a href="#about" class="about anchor" title="Know more About Us">About</a>
+      <a href="#Properties" class="facility anchor">Properties</a>
+      <a href="#contact" class="properties anchor">Contact</a>
+    </div>
+
+    <!-- Image -->
+    <img class="background" src="./images/bkg.jpg" alt="background image" />
+    <div class="bkgtalk">
+      <p class="enjoy">
+        ENJOY A WONDERFUL LIVING WITH A GREAT LUXURY EXPERIENCE
+      </p>
+      <p class="comfort">MOST RELIABLE COMFORT</p>
+    </div>
+
+    <!-- Body one -->
+    <div class="bodyOne" id="about">
+      <p class="welcome">Welcome to Ovak properties</p>
+      <p>
+        Consult ovak properties to experience an ideal way of living filled with
+        comfort and welfare.
+      </p>
+      <br />
+      <p>
+        Delight yourself at a fantastic place - we offer excellent accomodation
+        featuring constant power supply, availability of water and easy
+        accesibility!
+      </p>
+      <img class="image" src="./images/imag.jpg" alt="body one pic" />
+      <input
+        class="searchbox"
+        type="text"
+        name=""
+        value=""
+        placeholder="Search..."
+      />
+      <a href="#"
+        ><i class="fa fa-search fa-2x search" aria-hidden="true"></i
+      ></a>
+    </div>
+
+    <!-- Body two -->
+    <div class="bodyTwo" id="Properties">
+      <p class="services">Services & Resources</p>
+      <p class="apartment">
+        Apartment amenities include spacious living environment, clean and
+        working toilet, a well placed kitchen and more. You'll be impressed by a
+        lot of the facilities provided.
+      </p>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext"><span>01</span> /03</div>
+        <img class="image1" src="./images/imag1.jpg" />
+        <div class="text">
+          <span class="title">The Living Room</span> <br />
+          The living room is spacious and can accomodate all your furniture and
+          appliances. <br />
+          <a class="details" href="#"
+            >VIEW DETAILS
+            <i class="fa fa-caret-right detailarrow" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext"><span>02</span> /03</div>
+        <img class="image1" src="./images/imag2.jpg" />
+        <div class="text">
+          <span class="title">The Bedroom</span> <br />
+          The bedroom is spacious and is fitted with a wardrobe just for you.
+          <br />
+          <a class="details" href="#"
+            >VIEW DETAILS
+            <i class="fa fa-caret-right detailarrow" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext"><span>03</span> /03</div>
+        <img class="image1" src="./images/imag3.jpg" />
+        <div class="text">
+          <span class="title">The Bathroom</span> <br />
+          The bathroom environment is sanitary, spacious and is in perfect
+          working conditions. <br />
+          <a class="details" href="#"
+            >VIEW DETAILS
+            <i class="fa fa-caret-right detailarrow" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="slab"></div>
+
+      <a onclick="plusSlides(1)"
+        ><i
+          class="fa fa-chevron-circle-right fa-3x arrow rightArrow"
+          aria-hidden="true"
+        ></i
+      ></a>
+      <a onclick="plusSlides(-1)"
+        ><i
+          class="fa fa-chevron-circle-left fa-3x arrow leftArrow"
+          aria-hidden="true"
+        ></i
+      ></a>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-image: url(./images/footer.jpg)" id="contact">
+      <p class="footnote">OVAK PRPERTIES</p>
+      <a href="#" target="_blank"
+        ><i class="fa fa-instagram icons instagram" aria-hidden="true"></i
+      ></a>
+      <a href="#" target="_blank"
+        ><i class="fa fa-facebook-official icons" aria-hidden="true"></i
+      ></a>
+      <a href="https://wa.me/+2347082940103" target="_blank"
+        ><i class="fa fa-whatsapp icons" aria-hidden="true"></i
+      ></a>
+      <a href="#" target="_blank"
+        ><i class="fa fa-linkedin-square icons" aria-hidden="true"></i
+      ></a>
+      <a href="#" target="_blank"
+        ><i class="fa fa-github icons" aria-hidden="true"></i
+      ></a>
+      <p class="copyright">COPYRIGHT &copy; 2022 ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <!-- Javascript -->
+    <script>
+      // NAVIGATION BAR - MOBILE VIEW
+      function myFunction() {
+        var x = document.getElementById("myNavBar");
+        if (x.className === "navBar") {
+          x.className = "responsive";
+        } else {
+          x.className = "navBar";
+        }
+      }
+
+      // GO-tO-TOP BUTTON
+      var mybutton = document.getElementById("mytop");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 150 ||
+          document.documentElement.scrollTop > 150
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      function functionName() {
+        var b = document.getElementById("myNavBar");
+        if (b.className === "responsive") {
+          b.className = "navBar";
+        }
+      }
+
+      // SLIDER
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </body>
+</html>
